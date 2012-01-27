@@ -1,0 +1,6 @@
+## Files to ignore in git
+## Matthias Orlowski
+## 01/27/2012
+
+*.pdf
+*.pcy
