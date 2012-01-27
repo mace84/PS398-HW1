@@ -1,9 +1,12 @@
 def shout(txt):
+  if isinstance(txt, str) == False:
+    return ""
+
   new_txt = txt.upper()
-  new_txt = new_txt.replace(". ", "! ")
-  if new_txt[len(new_txt) - 1] != ".":
-    new_txt = new_txt + "!"
+  new_txt = new_txt.replace(".", "!")
   new_txt = new_txt.replace("?", "!")
+  if new_txt[len(new_txt) - 1] != "!":
+    new_txt = new_txt + "!"
   return new_txt
   
 def reverse(txt):
@@ -21,6 +24,9 @@ def reversewords(txt):
     
   tmp = txt.replace("?", ".")
   tmp = tmp.replace("!", ".")
+
+  if tmp[len(tmp) - 1] != ".":
+    tmp = tmp + "."
   sentences = tmp.split(". ")
   sentences = [s.strip() for s in sentences if len(s.strip()) > 0]
   
@@ -41,18 +47,21 @@ def reversewords(txt):
     if len(sentence) > 0:
       new_text += sentence
       new_text += ". "
-    
+
+  new_text = new_text.rstrip()
   return new_text
   
 def reversewordletters(txt):
   if isinstance(txt, str) == False:
     return ""
-  
+  stop_chars = [" ", ".", "?", "!", ",", ":", ";"]
+  if txt[len(txt) - 1] not in stop_chars:
+    txt = txt + "."
+    
   tmp_text = ""
   
   back_pointer = 0
   front_pointer = 0
-  stop_chars = [" ", ".", "?", "!", ",", ":", ";"]
   for i in range(0, len(txt)):
     if txt[i] in stop_chars:
       front_pointer = i
@@ -67,13 +76,13 @@ def reversewordletters(txt):
       
   return tmp_text
   
-def piglatin(txt):
-  if isinstance(txt, str) == False:
-    return ""
+  def piglatin(txt):
+    if isinstance(txt, str) == False:
+      return ""
   
-  if txt == "test":
-    return "estte"
-  elif txt == "pig latin":
-    return "igpe atinle"
+    if txt == "test":
+      return "estte"
+    elif txt == "pig latin":
+      return "igpe atinle"
     
-  raise NotImplementedError("Didn't quite finish this one....")
+    raise NotImplementedError("Didn't quite finish this one....")
