@@ -11,15 +11,14 @@ import datetime
 class Portfolio(object):
 
 # define portfolio content
-    def __init__(self,account,cash=0,funds = {}, fund_sellprices ={}, stock = {}, stock_buyprices = {},stock_sellprices = {}, day = 0, log = ""):
-        self.account = str(account)
+    def __init__(self,account,cash=0,funds = {}, fund_sellprices ={}, stock = {}, stock_buyprices = {},stock_sellprices = {}, log = ""):
+        self.account = str(account) # kind of unnecessary
         self.cash = cash
 	self.mutual_funds = {}
         self.fund_sellprices = {}
         self.stock = {}
-        self.stock_buyprices = {}
+        self.stock_buyprices = {} # not necessary now but if one would want to include margins in output
         self.stock_sellprices = {}        
-        self.day = day
         self.log = log
         
         if self.cash > 500:
@@ -27,20 +26,29 @@ class Portfolio(object):
             
 # define print(portfolio)
     def __str__(self):
-        stocklist1 = str(self.stock.keys())
-        stocklist2 = str(self.stock.values())
-        mflist1 = str(self.mutual_funds.keys())
-        mflist1 = str(self.mutual_funds.values())
+        temp1 = str(self.stock)
+        temp1 = temp1.rstrip("}")
+        temp1 = temp1.strip("{")
+        temp1 = temp1.rsplit(",")
+        stocklist = "\n "
+        for i in range(0,len(temp1)):
+            stocklist = stocklist + temp1[i] + "\n"
+        temp2 = str(self.mutual_funds)
+        temp2 = temp2.rstrip("}")
+        temp2 = temp2.strip("{")
+        temp2 = temp2.rsplit(",")
+        fundlist = "\n "
+        for i in range(0,len(temp2)):
+            fundlist = fundlist + temp2[i] + "\n"
+
         output = """Account: %s
+
 Cash: $%d
 
 Stocks: %s
-%s
-
 Mutual Funds: %s
-%s
-""", %(self.account,self.cash,stocklist1,stocklist2,mflist1,mflist2)
-        return output
+""" %(self.account,self.cash,stocklist,fundlist)
+        print output
         
 # Transaction functions (warnings and input checks are not DRY! make functions for both.)
     def addCash(self,amount):
@@ -148,8 +156,9 @@ Mutual Funds: %s
 
 
     def CommunistsAreComing(self):
-            print """You are to rich!
-You are taxed 50% of your cash, for building sewage systems, roads, and kindergartens. Stocks and mutual funds are not taxed until they are sold. So better think twice when cashing in your investments! But after all, we know you always like to help!
+            print """You are too rich!
+You are taxed 50% of your cash, for building sewage systems, roads, and kindergartens. Stocks and mutual funds are not taxed until they are sold. So better think twice when cashing in your investments!
+But after all, we know you always like to help!
 \n
 Your Government."""
             
@@ -158,13 +167,12 @@ Your Government."""
 
     def LogEntry(self,entry):
         now = datetime.datetime.now()
-        self.day = self.day + 1
         temp = now.strftime("%Y-%m-%d %H:%M") + ": " + entry + " \n"
         self.log = self.log + temp
 
 
     def history(self):
-        return self.log
+        print self.log
     
 # Stocks and Mutual Funds
 class Stock(object):
@@ -175,7 +183,7 @@ class Stock(object):
         self.pricesold = random.uniform(0.5*self.pricebought, 1.5*self.pricebought)
     def __str__(self):
         output = "STOCK \nName: " + str(self.name) + "\nBought at: $" + str(self.pricebought) + "\nSell for: $" + self.pricesold
-        return output
+        print output
 
 
 class MutualFund(object):
@@ -187,5 +195,5 @@ class MutualFund(object):
 
     def __str__(self):
         output = "MUTUAL FUND \nName: " + str(self.name) + "\nShares for sale: " + format(self.instock,'.0f')
-        return output
+        print output
 
