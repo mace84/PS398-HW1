@@ -1,13 +1,11 @@
 ## P398 Homework Assignment 3
 ## Matthias Orlowski
-## Implementation and test of two sorting algorithms (Insertion Sort and) 
-## Algorithms wer implemented according to: http://www.sorting-algorithms.com/
+## Implementation and test of three sorting algorithms (Insertion Sort, Bubble Sort and Quick Sort) 
+## Algorithms were implemented following: http://www.sorting-algorithms.com/
 
 #! /usr/bin/python
 
 import random
-import csv
-import timeit
 
 # Exceptions:
 class MyException(Exception):
@@ -33,7 +31,19 @@ def insertionSort(inlist):
         if type(inlist) != list:
             raise MyException, "This function only works in list objects. Please call on a list in the form [1,2,3]."
 
-# timeit.Timer("insertionSort()")
+
+# O(n^2) with O(n) when nearly sorted
+def bubbleSort(inlist):
+    try:
+        n = len(inlist)
+        for j in range(n,1,-1):
+            for i in range(n-1):
+                if inlist[i] >= inlist[i+1]:
+                    inlist[i],inlist[i+1] = inlist[i+1],inlist[i]
+        return inlist
+    except:
+        if type(inlist) != list:
+            raise MyException, "This function only works in list objects. Please call on a list in the form [1,2,3]."
 
 
 #O(n^2) to O(n) with average O(n*log2(n)) algorithm
