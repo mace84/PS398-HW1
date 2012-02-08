@@ -1,12 +1,10 @@
 ## P398 Homework Assignment 3
 ## Matthias Orlowski
-## Runtime test for different sorting algorithms implemented in HW3.py
+## Generate different list structures for runtime tests for different sorting algorithms implemented in HW3sorts.py
 
 #! /usr/bin/python
 
-import HW3
 import random
-import itertools
 import numpy
 
 def randList(length):
