@@ -9,8 +9,7 @@ import csv
 import HW3sorts
 import HW3random
 
-lengths1 = range(1000,1201,100)
-lengths2 = range(128,65536,128)
+lengths1 = range(128,8192,128)
 unique_ratio = 0.075
 not_sorted_ratio = 0.85
 
