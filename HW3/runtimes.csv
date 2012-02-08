@@ -1,0 +1,1008 @@
+Bubble Sort,Random list,128,0.00518075625102
+Bubble Sort,Repetitions list,128,0.00869997342428
+Bubble Sort,Sorted list,128,0.00831087430318
+Bubble Sort,Sorted rep. list,128,0.00897200902303
+Insertion Sort,Random list,128,0.00225170453389
+Insertion Sort,Repetitions list,128,0.00219996770223
+Insertion Sort,Sorted list,128,0.00222698847453
+Insertion Sort,Sorted rep. list,128,0.00221308072408
+Qick Sort,Random list,128,0.00297395388285
+Qick Sort,Repetitions list,128,0.00285768508911
+Qick Sort,Sorted list,128,0.00286897023519
+Qick Sort,Sorted rep. list,128,0.00278536478678
+Qick Sort (RP),Random list,128,0.00249171257019
+Qick Sort (RP),Repetitions list,128,0.00179998079936
+Qick Sort (RP),Sorted list,128,0.00193166732788
+Qick Sort (RP),Sorted rep. list,128,0.00197458267212
+Bubble Sort,Random list,256,0.020500421524
+Bubble Sort,Repetitions list,256,0.035279750824
+Bubble Sort,Sorted list,256,0.0204984347026
+Bubble Sort,Sorted rep. list,256,0.0350600878398
+Insertion Sort,Random list,256,0.00864903132121
+Insertion Sort,Repetitions list,256,0.00856749216715
+Insertion Sort,Sorted list,256,0.00868407885234
+Insertion Sort,Sorted rep. list,256,0.00870132446289
+Qick Sort,Random list,256,0.010257323583
+Qick Sort,Repetitions list,256,0.00982332229614
+Qick Sort,Sorted list,256,0.010104338328
+Qick Sort,Sorted rep. list,256,0.0098553498586
+Qick Sort (RP),Random list,256,0.00803065299988
+Qick Sort (RP),Repetitions list,256,0.00811576843262
+Qick Sort (RP),Sorted list,256,0.00650032361348
+Qick Sort (RP),Sorted rep. list,256,0.00747505823771
+Bubble Sort,Random list,384,0.0471376578013
+Bubble Sort,Repetitions list,384,0.0792489846547
+Bubble Sort,Sorted list,384,0.046204328537
+Bubble Sort,Sorted rep. list,384,0.0791169802348
+Insertion Sort,Random list,384,0.0192915598551
+Insertion Sort,Repetitions list,384,0.0191089312236
+Insertion Sort,Sorted list,384,0.0191833972931
+Insertion Sort,Sorted rep. list,384,0.019030491511
+Qick Sort,Random list,384,0.0224982897441
+Qick Sort,Repetitions list,384,0.0223217010498
+Qick Sort,Sorted list,384,0.0224438508352
+Qick Sort,Sorted rep. list,384,0.0218366781871
+Qick Sort (RP),Random list,384,0.0143490632375
+Qick Sort (RP),Repetitions list,384,0.0135386784871
+Qick Sort (RP),Sorted list,384,0.0146593252818
+Qick Sort (RP),Sorted rep. list,384,0.0142023563385
+Bubble Sort,Random list,512,0.0837743282318
+Bubble Sort,Repetitions list,512,0.140833377838
+Bubble Sort,Sorted list,512,0.0832639535268
+Bubble Sort,Sorted rep. list,512,0.141031424205
+Insertion Sort,Random list,512,0.034019390742
+Insertion Sort,Repetitions list,512,0.0335017045339
+Insertion Sort,Sorted list,512,0.0341023604075
+Insertion Sort,Sorted rep. list,512,0.0336734453837
+Qick Sort,Random list,512,0.0391793251038
+Qick Sort,Repetitions list,512,0.037561972936
+Qick Sort,Sorted list,512,0.0391330718994
+Qick Sort,Sorted rep. list,512,0.0373600323995
+Qick Sort (RP),Random list,512,0.0259323120117
+Qick Sort (RP),Repetitions list,512,0.0245803991954
+Qick Sort (RP),Sorted list,512,0.0271746317546
+Qick Sort (RP),Sorted rep. list,512,0.0299999713898
+Bubble Sort,Random list,640,0.131549119949
+Bubble Sort,Repetitions list,640,0.222492376963
+Bubble Sort,Sorted list,640,0.130413373311
+Bubble Sort,Sorted rep. list,640,0.220538695653
+Insertion Sort,Random list,640,0.0530376434326
+Insertion Sort,Repetitions list,640,0.0523037910461
+Insertion Sort,Sorted list,640,0.0530234177907
+Insertion Sort,Sorted rep. list,640,0.0522345701853
+Qick Sort,Random list,640,0.0613405704498
+Qick Sort,Repetitions list,640,0.0580867131551
+Qick Sort,Sorted list,640,0.0605119864146
+Qick Sort,Sorted rep. list,640,0.0580133597056
+Qick Sort (RP),Random list,640,0.048415740331
+Qick Sort (RP),Repetitions list,640,0.0371096134186
+Qick Sort (RP),Sorted list,640,0.0468943119049
+Qick Sort (RP),Sorted rep. list,640,0.0412147045135
+Bubble Sort,Random list,768,0.191293636958
+Bubble Sort,Repetitions list,768,0.319051027298
+Bubble Sort,Sorted list,768,0.208824555079
+Bubble Sort,Sorted rep. list,768,0.316606680552
+Insertion Sort,Random list,768,0.0758892695109
+Insertion Sort,Repetitions list,768,0.0748819510142
+Insertion Sort,Sorted list,768,0.0759781201681
+Insertion Sort,Sorted rep. list,768,0.0746366977692
+Qick Sort,Random list,768,0.086550951004
+Qick Sort,Repetitions list,768,0.0821986993154
+Qick Sort,Sorted list,768,0.0852032502492
+Qick Sort,Sorted rep. list,768,0.0821653207143
+Qick Sort (RP),Random list,768,0.0639835993449
+Qick Sort (RP),Repetitions list,768,0.0535170237223
+Qick Sort (RP),Sorted list,768,0.052037636439
+Qick Sort (RP),Sorted rep. list,768,0.0525660514832
+Bubble Sort,Random list,896,0.259981632233
+Bubble Sort,Repetitions list,896,0.432746728261
+Bubble Sort,Sorted list,896,0.257513999939
+Bubble Sort,Sorted rep. list,896,0.434669971466
+Insertion Sort,Random list,896,0.10342001915
+Insertion Sort,Repetitions list,896,0.108598073324
+Insertion Sort,Sorted list,896,0.103103558222
+Insertion Sort,Sorted rep. list,896,0.101590236028
+Qick Sort,Random list,896,0.117293278376
+Qick Sort,Repetitions list,896,0.111051559448
+Qick Sort,Sorted list,896,0.115701357524
+Qick Sort,Sorted rep. list,896,0.110594987869
+Qick Sort (RP),Random list,896,0.0970091025035
+Qick Sort (RP),Repetitions list,896,0.0612446467082
+Qick Sort (RP),Sorted list,896,0.0869719982147
+Qick Sort (RP),Sorted rep. list,896,0.0760410626729
+Bubble Sort,Random list,1024,0.337049007416
+Bubble Sort,Repetitions list,1024,0.564179261525
+Bubble Sort,Sorted list,1024,0.337853988012
+Bubble Sort,Sorted rep. list,1024,0.564715067546
+Insertion Sort,Random list,1024,0.134752670924
+Insertion Sort,Repetitions list,1024,0.13255572319
+Insertion Sort,Sorted list,1024,0.134436368942
+Insertion Sort,Sorted rep. list,1024,0.132075548172
+Qick Sort,Random list,1024,0.153312365214
+Qick Sort,Repetitions list,1024,0.146908442179
+Qick Sort,Sorted list,1024,0.153532028198
+Qick Sort,Sorted rep. list,1024,0.146477381388
+Qick Sort (RP),Random list,1024,0.0863329569499
+Qick Sort (RP),Repetitions list,1024,0.0947876771291
+Qick Sort (RP),Sorted list,1024,0.0825910568237
+Qick Sort (RP),Sorted rep. list,1024,0.120179573695
+Bubble Sort,Random list,1152,0.429085016251
+Bubble Sort,Repetitions list,1152,0.718442042669
+Bubble Sort,Sorted list,1152,0.430289506912
+Bubble Sort,Sorted rep. list,1152,0.715249697367
+Insertion Sort,Random list,1152,0.169940471649
+Insertion Sort,Repetitions list,1152,0.167510668437
+Insertion Sort,Sorted list,1152,0.169955730438
+Insertion Sort,Sorted rep. list,1152,0.167241334915
+Qick Sort,Random list,1152,0.190263032913
+Qick Sort,Repetitions list,1152,0.178287029266
+Qick Sort,Sorted list,1152,0.185981114705
+Qick Sort,Sorted rep. list,1152,0.17861533165
+Qick Sort (RP),Random list,1152,0.101017395655
+Qick Sort (RP),Repetitions list,1152,0.131000677745
+Qick Sort (RP),Sorted list,1152,0.0998016993205
+Qick Sort (RP),Sorted rep. list,1152,0.137032588323
+Bubble Sort,Random list,1280,0.528273026148
+Bubble Sort,Repetitions list,1280,0.885463635127
+Bubble Sort,Sorted list,1280,0.527877648671
+Bubble Sort,Sorted rep. list,1280,0.888630072276
+Insertion Sort,Random list,1280,0.209457953771
+Insertion Sort,Repetitions list,1280,0.206264257431
+Insertion Sort,Sorted list,1280,0.210690975189
+Insertion Sort,Sorted rep. list,1280,0.212085008621
+Qick Sort,Random list,1280,0.341454267502
+Qick Sort,Repetitions list,1280,0.21309932073
+Qick Sort,Sorted list,1280,0.226566314697
+Qick Sort,Sorted rep. list,1280,0.210340102514
+Qick Sort (RP),Random list,1280,0.199076334635
+Qick Sort (RP),Repetitions list,1280,0.130106290181
+Qick Sort (RP),Sorted list,1280,0.130966663361
+Qick Sort (RP),Sorted rep. list,1280,0.162977298101
+Bubble Sort,Random list,1408,0.649399995804
+Bubble Sort,Repetitions list,1408,1.07707826296
+Bubble Sort,Sorted list,1408,0.639863888423
+Bubble Sort,Sorted rep. list,1408,1.07421032588
+Insertion Sort,Random list,1408,0.257600307465
+Insertion Sort,Repetitions list,1408,0.249510367711
+Insertion Sort,Sorted list,1408,0.252908627192
+Insertion Sort,Sorted rep. list,1408,0.249750057856
+Qick Sort,Random list,1408,0.260973374049
+Qick Sort,Repetitions list,1408,0.245757023493
+Qick Sort,Sorted list,1408,0.260576327642
+Qick Sort,Sorted rep. list,1408,0.24441297849
+Qick Sort (RP),Random list,1408,0.174201329549
+Qick Sort (RP),Repetitions list,1408,0.182989279429
+Qick Sort (RP),Sorted list,1408,0.165887991587
+Qick Sort (RP),Sorted rep. list,1408,0.197886625926
+Bubble Sort,Random list,1536,0.769808928172
+Bubble Sort,Repetitions list,1536,1.27891294161
+Bubble Sort,Sorted list,1536,0.77001730601
+Bubble Sort,Sorted rep. list,1536,1.27599438032
+Insertion Sort,Random list,1536,0.302332083384
+Insertion Sort,Repetitions list,1536,0.297674655914
+Insertion Sort,Sorted list,1536,0.301832675934
+Insertion Sort,Sorted rep. list,1536,0.297525723775
+Qick Sort,Random list,1536,0.298246622086
+Qick Sort,Repetitions list,1536,0.276589711507
+Qick Sort,Sorted list,1536,0.300261338552
+Qick Sort,Sorted rep. list,1536,0.275909344355
+Qick Sort (RP),Random list,1536,0.213277975718
+Qick Sort (RP),Repetitions list,1536,0.189344326655
+Qick Sort (RP),Sorted list,1536,0.201665639877
+Qick Sort (RP),Sorted rep. list,1536,0.186703364054
+Bubble Sort,Random list,1664,0.90122961998
+Bubble Sort,Repetitions list,1664,1.50954262416
+Bubble Sort,Sorted list,1664,0.894147316615
+Bubble Sort,Sorted rep. list,1664,1.50030660629
+Insertion Sort,Random list,1664,0.354349692663
+Insertion Sort,Repetitions list,1664,0.353825330734
+Insertion Sort,Sorted list,1664,0.354250987371
+Insertion Sort,Sorted rep. list,1664,0.348360697428
+Qick Sort,Random list,1664,0.331842343012
+Qick Sort,Repetitions list,1664,0.308586041133
+Qick Sort,Sorted list,1664,0.329053322474
+Qick Sort,Sorted rep. list,1664,0.30938021342
+Qick Sort (RP),Random list,1664,0.255922714869
+Qick Sort (RP),Repetitions list,1664,0.248003721237
+Qick Sort (RP),Sorted list,1664,0.263674577077
+Qick Sort (RP),Sorted rep. list,1664,0.236949125926
+Bubble Sort,Random list,1792,1.04289507866
+Bubble Sort,Repetitions list,1792,1.7397963206
+Bubble Sort,Sorted list,1792,1.04376570384
+Bubble Sort,Sorted rep. list,1792,1.73839569092
+Insertion Sort,Random list,1792,0.41014289856
+Insertion Sort,Repetitions list,1792,0.403986374537
+Insertion Sort,Sorted list,1792,0.409648338954
+Insertion Sort,Sorted rep. list,1792,0.403930743535
+Qick Sort,Random list,1792,0.372350374858
+Qick Sort,Repetitions list,1792,0.343391736348
+Qick Sort,Sorted list,1792,0.369227250417
+Qick Sort,Sorted rep. list,1792,0.341663916906
+Qick Sort (RP),Random list,1792,0.287318388621
+Qick Sort (RP),Repetitions list,1792,0.249021689097
+Qick Sort (RP),Sorted list,1792,0.288014650345
+Qick Sort (RP),Sorted rep. list,1792,0.286609252294
+Bubble Sort,Random list,1920,1.21012075742
+Bubble Sort,Repetitions list,1920,2.00374801954
+Bubble Sort,Sorted list,1920,1.2043996652
+Bubble Sort,Sorted rep. list,1920,2.0022037824
+Insertion Sort,Random list,1920,0.47155102094
+Insertion Sort,Repetitions list,1920,0.463189045588
+Insertion Sort,Sorted list,1920,0.469751358032
+Insertion Sort,Sorted rep. list,1920,0.464081684748
+Qick Sort,Random list,1920,0.405855973562
+Qick Sort,Repetitions list,1920,0.375502983729
+Qick Sort,Sorted list,1920,0.403128067652
+Qick Sort,Sorted rep. list,1920,0.375259717306
+Qick Sort (RP),Random list,1920,0.29806192716
+Qick Sort (RP),Repetitions list,1920,0.271423339844
+Qick Sort (RP),Sorted list,1920,0.322230974833
+Qick Sort (RP),Sorted rep. list,1920,0.28616698583
+Bubble Sort,Random list,2048,1.37200307846
+Bubble Sort,Repetitions list,2048,2.2809484005
+Bubble Sort,Sorted list,2048,1.36755005519
+Bubble Sort,Sorted rep. list,2048,2.27698802948
+Insertion Sort,Random list,2048,0.535014073054
+Insertion Sort,Repetitions list,2048,0.527664025625
+Insertion Sort,Sorted list,2048,0.535221735636
+Insertion Sort,Sorted rep. list,2048,0.528605620066
+Qick Sort,Random list,2048,0.44467775027
+Qick Sort,Repetitions list,2048,0.408278862635
+Qick Sort,Sorted list,2048,0.442630688349
+Qick Sort,Sorted rep. list,2048,0.410749276479
+Qick Sort (RP),Random list,2048,0.328268051147
+Qick Sort (RP),Repetitions list,2048,0.33801984787
+Qick Sort (RP),Sorted list,2048,0.320285399755
+Qick Sort (RP),Sorted rep. list,2048,0.30885831515
+Bubble Sort,Random list,2176,1.55165600777
+Bubble Sort,Repetitions list,2176,2.5759780407
+Bubble Sort,Sorted list,2176,1.5452191035
+Bubble Sort,Sorted rep. list,2176,2.57480637232
+Insertion Sort,Random list,2176,0.605882883072
+Insertion Sort,Repetitions list,2176,0.595453341802
+Insertion Sort,Sorted list,2176,0.604227701823
+Insertion Sort,Sorted rep. list,2176,0.594991525014
+Qick Sort,Random list,2176,0.482770760854
+Qick Sort,Repetitions list,2176,0.442237059275
+Qick Sort,Sorted list,2176,0.480066935221
+Qick Sort,Sorted rep. list,2176,0.441336552302
+Qick Sort (RP),Random list,2176,0.416968743006
+Qick Sort (RP),Repetitions list,2176,0.390711386998
+Qick Sort (RP),Sorted list,2176,0.372075955073
+Qick Sort (RP),Sorted rep. list,2176,0.380915006002
+Bubble Sort,Random list,2304,1.74894396464
+Bubble Sort,Repetitions list,2304,2.88994057973
+Bubble Sort,Sorted list,2304,1.73935699463
+Bubble Sort,Sorted rep. list,2304,2.88588563601
+Insertion Sort,Random list,2304,0.680989742279
+Insertion Sort,Repetitions list,2304,0.667137066523
+Insertion Sort,Sorted list,2304,0.680898825328
+Insertion Sort,Sorted rep. list,2304,0.666409333547
+Qick Sort,Random list,2304,0.518318335215
+Qick Sort,Repetitions list,2304,0.476941347122
+Qick Sort,Sorted list,2304,0.512148777644
+Qick Sort,Sorted rep. list,2304,0.476216554642
+Qick Sort (RP),Random list,2304,0.419699033101
+Qick Sort (RP),Repetitions list,2304,0.393263339996
+Qick Sort (RP),Sorted list,2304,0.421211798986
+Qick Sort (RP),Sorted rep. list,2304,0.378925720851
+Bubble Sort,Random list,2432,1.97663195928
+Bubble Sort,Repetitions list,2432,3.21597909927
+Bubble Sort,Sorted list,2432,1.93038328489
+Bubble Sort,Sorted rep. list,2432,3.21617992719
+Insertion Sort,Random list,2432,0.768759330114
+Insertion Sort,Repetitions list,2432,0.744359016418
+Insertion Sort,Sorted list,2432,0.755527098974
+Insertion Sort,Sorted rep. list,2432,0.744071324666
+Qick Sort,Random list,2432,0.556041320165
+Qick Sort,Repetitions list,2432,0.50651327769
+Qick Sort,Sorted list,2432,0.554822921753
+Qick Sort,Sorted rep. list,2432,0.510057290395
+Qick Sort (RP),Random list,2432,0.422657410304
+Qick Sort (RP),Repetitions list,2432,0.407898028692
+Qick Sort (RP),Sorted list,2432,0.438529014587
+Qick Sort (RP),Sorted rep. list,2432,0.43271613121
+Bubble Sort,Random list,2560,2.14870325724
+Bubble Sort,Repetitions list,2560,3.54828373591
+Bubble Sort,Sorted list,2560,2.13601048787
+Bubble Sort,Sorted rep. list,2560,3.54656497637
+Insertion Sort,Random list,2560,0.835401614507
+Insertion Sort,Repetitions list,2560,0.821930408478
+Insertion Sort,Sorted list,2560,0.841359376907
+Insertion Sort,Sorted rep. list,2560,0.823493639628
+Qick Sort,Random list,2560,0.594538291295
+Qick Sort,Repetitions list,2560,0.540453910828
+Qick Sort,Sorted list,2560,0.592893997828
+Qick Sort,Sorted rep. list,2560,0.545723279317
+Qick Sort (RP),Random list,2560,0.48813700676
+Qick Sort (RP),Repetitions list,2560,0.42724998792
+Qick Sort (RP),Sorted list,2560,0.516163746516
+Qick Sort (RP),Sorted rep. list,2560,0.455238978068
+Bubble Sort,Random list,2688,2.36337200801
+Bubble Sort,Repetitions list,2688,3.92658734322
+Bubble Sort,Sorted list,2688,2.36325995127
+Bubble Sort,Sorted rep. list,2688,3.92342003187
+Insertion Sort,Random list,2688,0.923454284668
+Insertion Sort,Repetitions list,2688,0.909064054489
+Insertion Sort,Sorted list,2688,0.921863953273
+Insertion Sort,Sorted rep. list,2688,0.9089123408
+Qick Sort,Random list,2688,0.623761812846
+Qick Sort,Repetitions list,2688,0.579295078913
+Qick Sort,Sorted list,2688,0.630846977234
+Qick Sort,Sorted rep. list,2688,0.572237332662
+Qick Sort (RP),Random list,2688,0.507577419281
+Qick Sort (RP),Repetitions list,2688,0.46297343572
+Qick Sort (RP),Sorted list,2688,0.545282999674
+Qick Sort (RP),Sorted rep. list,2688,0.510447581609
+Bubble Sort,Random list,2816,2.60193371773
+Bubble Sort,Repetitions list,2816,4.31092302004
+Bubble Sort,Sorted list,2816,2.5870030721
+Bubble Sort,Sorted rep. list,2816,4.33702643712
+Insertion Sort,Random list,2816,1.01299158732
+Insertion Sort,Repetitions list,2816,1.00550373395
+Insertion Sort,Sorted list,2816,1.01091567675
+Insertion Sort,Sorted rep. list,2816,1.01293174426
+Qick Sort,Random list,2816,0.669330596924
+Qick Sort,Repetitions list,2816,0.612033685048
+Qick Sort,Sorted list,2816,0.665220022202
+Qick Sort,Sorted rep. list,2816,0.605610450109
+Qick Sort (RP),Random list,2816,0.601940631866
+Qick Sort (RP),Repetitions list,2816,0.492966969808
+Qick Sort (RP),Sorted list,2816,0.582125345866
+Qick Sort (RP),Sorted rep. list,2816,0.492413679759
+Bubble Sort,Random list,2944,2.84616859754
+Bubble Sort,Repetitions list,2944,4.71244502068
+Bubble Sort,Sorted list,2944,2.84699646632
+Bubble Sort,Sorted rep. list,2944,4.72182472547
+Insertion Sort,Random list,2944,1.10843237241
+Insertion Sort,Repetitions list,2944,1.09154526393
+Insertion Sort,Sorted list,2944,1.10955929756
+Insertion Sort,Sorted rep. list,2944,1.09090868632
+Qick Sort,Random list,2944,0.704917907715
+Qick Sort,Repetitions list,2944,0.647902011871
+Qick Sort,Sorted list,2944,0.692925930023
+Qick Sort,Sorted rep. list,2944,0.645114183426
+Qick Sort (RP),Random list,2944,0.583029429118
+Qick Sort (RP),Repetitions list,2944,0.592344999313
+Qick Sort (RP),Sorted list,2944,0.592908938726
+Qick Sort (RP),Sorted rep. list,2944,0.538901011149
+Bubble Sort,Random list,3072,3.10777719816
+Bubble Sort,Repetitions list,3072,5.13940223058
+Bubble Sort,Sorted list,3072,3.10634636879
+Bubble Sort,Sorted rep. list,3072,5.1344080766
+Insertion Sort,Random list,3072,1.2093603611
+Insertion Sort,Repetitions list,3072,1.19107238452
+Insertion Sort,Sorted list,3072,1.20274368922
+Insertion Sort,Sorted rep. list,3072,1.18725236257
+Qick Sort,Random list,3072,0.73366800944
+Qick Sort,Repetitions list,3072,0.681586662928
+Qick Sort,Sorted list,3072,0.737953265508
+Qick Sort,Sorted rep. list,3072,0.680169741313
+Qick Sort (RP),Random list,3072,0.604578971863
+Qick Sort (RP),Repetitions list,3072,0.583063920339
+Qick Sort (RP),Sorted list,3072,0.607830047607
+Qick Sort (RP),Sorted rep. list,3072,0.569149653117
+Bubble Sort,Random list,3200,3.37774300575
+Bubble Sort,Repetitions list,3200,5.55737368266
+Bubble Sort,Sorted list,3200,3.34381842613
+Bubble Sort,Sorted rep. list,3200,5.55411370595
+Insertion Sort,Random list,3200,1.30689899127
+Insertion Sort,Repetitions list,3200,1.28833524386
+Insertion Sort,Sorted list,3200,1.30471674601
+Insertion Sort,Sorted rep. list,3200,1.28746557236
+Qick Sort,Random list,3200,0.773172219594
+Qick Sort,Repetitions list,3200,0.70472462972
+Qick Sort,Sorted list,3200,0.77171866099
+Qick Sort,Sorted rep. list,3200,0.71049729983
+Qick Sort (RP),Random list,3200,0.679469664892
+Qick Sort (RP),Repetitions list,3200,0.63680100441
+Qick Sort (RP),Sorted list,3200,0.650849660238
+Qick Sort (RP),Sorted rep. list,3200,0.609882911046
+Bubble Sort,Random list,3328,3.63734046618
+Bubble Sort,Repetitions list,3328,6.02850731214
+Bubble Sort,Sorted list,3328,3.66264041265
+Bubble Sort,Sorted rep. list,3328,6.02649505933
+Insertion Sort,Random list,3328,1.41951100032
+Insertion Sort,Repetitions list,3328,1.39847803116
+Insertion Sort,Sorted list,3328,1.44071205457
+Insertion Sort,Sorted rep. list,3328,1.39985561371
+Qick Sort,Random list,3328,0.804261763891
+Qick Sort,Repetitions list,3328,0.742324034373
+Qick Sort,Sorted list,3328,0.808043241501
+Qick Sort,Sorted rep. list,3328,0.743830919266
+Qick Sort (RP),Random list,3328,0.737348397573
+Qick Sort (RP),Repetitions list,3328,0.632622639338
+Qick Sort (RP),Sorted list,3328,0.735014438629
+Qick Sort (RP),Sorted rep. list,3328,0.628030061722
+Bubble Sort,Random list,3456,3.9399377505
+Bubble Sort,Repetitions list,3456,6.4985546271
+Bubble Sort,Sorted list,3456,3.92050449053
+Bubble Sort,Sorted rep. list,3456,6.52826793989
+Insertion Sort,Random list,3456,1.52639730771
+Insertion Sort,Repetitions list,3456,1.50576106707
+Insertion Sort,Sorted list,3456,1.52218270302
+Insertion Sort,Sorted rep. list,3456,1.50215339661
+Qick Sort,Random list,3456,0.852291266123
+Qick Sort,Repetitions list,3456,0.778686682383
+Qick Sort,Sorted list,3456,0.848559300105
+Qick Sort,Sorted rep. list,3456,0.775228738785
+Qick Sort (RP),Random list,3456,0.726369063059
+Qick Sort (RP),Repetitions list,3456,0.658161004384
+Qick Sort (RP),Sorted list,3456,0.725841999054
+Qick Sort (RP),Sorted rep. list,3456,0.682342290878
+Bubble Sort,Random list,3584,4.2329270045
+Bubble Sort,Repetitions list,3584,6.99160162608
+Bubble Sort,Sorted list,3584,4.23714359601
+Bubble Sort,Sorted rep. list,3584,6.98331801097
+Insertion Sort,Random list,3584,1.64187892278
+Insertion Sort,Repetitions list,3584,1.61489804586
+Insertion Sort,Sorted list,3584,1.63861966133
+Insertion Sort,Sorted rep. list,3584,1.61408861478
+Qick Sort,Random list,3584,0.882798353831
+Qick Sort,Repetitions list,3584,0.80516076088
+Qick Sort,Sorted list,3584,0.894012292226
+Qick Sort,Sorted rep. list,3584,0.813102006912
+Qick Sort (RP),Random list,3584,0.79297709465
+Qick Sort (RP),Repetitions list,3584,0.701305627823
+Qick Sort (RP),Sorted list,3584,0.748253981272
+Qick Sort (RP),Sorted rep. list,3584,0.693825006485
+Bubble Sort,Random list,3712,4.55342626572
+Bubble Sort,Repetitions list,3712,7.51481525103
+Bubble Sort,Sorted list,3712,4.55150532722
+Bubble Sort,Sorted rep. list,3712,7.50045108795
+Insertion Sort,Random list,3712,1.76311794917
+Insertion Sort,Repetitions list,3712,1.73178537687
+Insertion Sort,Sorted list,3712,1.75548617045
+Insertion Sort,Sorted rep. list,3712,1.72914004326
+Qick Sort,Random list,3712,0.923655033112
+Qick Sort,Repetitions list,3712,0.848607699076
+Qick Sort,Sorted list,3712,0.911750713984
+Qick Sort,Sorted rep. list,3712,0.846324205399
+Qick Sort (RP),Random list,3712,0.819687366486
+Qick Sort (RP),Repetitions list,3712,0.758555253347
+Qick Sort (RP),Sorted list,3712,0.781251748403
+Qick Sort (RP),Sorted rep. list,3712,0.740257024765
+Bubble Sort,Random list,3840,4.85665631294
+Bubble Sort,Repetitions list,3840,8.02214662234
+Bubble Sort,Sorted list,3840,4.8478170236
+Bubble Sort,Sorted rep. list,3840,8.01161003113
+Insertion Sort,Random list,3840,1.8953016599
+Insertion Sort,Repetitions list,3840,1.85191869736
+Insertion Sort,Sorted list,3840,1.87482309341
+Insertion Sort,Sorted rep. list,3840,1.84725427628
+Qick Sort,Random list,3840,0.953641255697
+Qick Sort,Repetitions list,3840,0.876975218455
+Qick Sort,Sorted list,3840,0.95011639595
+Qick Sort,Sorted rep. list,3840,0.877511024475
+Qick Sort (RP),Random list,3840,0.864878018697
+Qick Sort (RP),Repetitions list,3840,0.75709939003
+Qick Sort (RP),Sorted list,3840,0.855486631393
+Qick Sort (RP),Sorted rep. list,3840,0.77832865715
+Bubble Sort,Random list,3968,5.20068693161
+Bubble Sort,Repetitions list,3968,8.57912238439
+Bubble Sort,Sorted list,3968,5.1901122729
+Bubble Sort,Sorted rep. list,3968,8.57226490974
+Insertion Sort,Random list,3968,2.01263467471
+Insertion Sort,Repetitions list,3968,1.97886220614
+Insertion Sort,Sorted list,3968,2.01089763641
+Insertion Sort,Sorted rep. list,3968,1.97748231888
+Qick Sort,Random list,3968,1.00242654483
+Qick Sort,Repetitions list,3968,0.908992767334
+Qick Sort,Sorted list,3968,0.99763361613
+Qick Sort,Sorted rep. list,3968,0.918864647547
+Qick Sort (RP),Random list,3968,0.864896933238
+Qick Sort (RP),Repetitions list,3968,0.837128718694
+Qick Sort (RP),Sorted list,3968,0.885066429774
+Qick Sort (RP),Sorted rep. list,3968,0.796456893285
+Bubble Sort,Random list,4096,5.55488626162
+Bubble Sort,Repetitions list,4096,9.14663966497
+Bubble Sort,Sorted list,4096,5.55938688914
+Bubble Sort,Sorted rep. list,4096,9.13786800702
+Insertion Sort,Random list,4096,2.147443374
+Insertion Sort,Repetitions list,4096,2.11172763507
+Insertion Sort,Sorted list,4096,2.14958524704
+Insertion Sort,Sorted rep. list,4096,2.11613202095
+Qick Sort,Random list,4096,1.04275496801
+Qick Sort,Repetitions list,4096,0.948321342468
+Qick Sort,Sorted list,4096,1.02298204104
+Qick Sort,Sorted rep. list,4096,0.948351780574
+Qick Sort (RP),Random list,4096,0.897313117981
+Qick Sort (RP),Repetitions list,4096,0.870633125305
+Qick Sort (RP),Sorted list,4096,0.894165039062
+Qick Sort (RP),Sorted rep. list,4096,0.842305103938
+Bubble Sort,Random list,4224,5.93960515658
+Bubble Sort,Repetitions list,4224,9.70229570071
+Bubble Sort,Sorted list,4224,5.90602461497
+Bubble Sort,Sorted rep. list,4224,9.70015494029
+Insertion Sort,Random list,4224,2.27583201726
+Insertion Sort,Repetitions list,4224,2.23614295324
+Insertion Sort,Sorted list,4224,2.27251887321
+Insertion Sort,Sorted rep. list,4224,2.23652044932
+Qick Sort,Random list,4224,1.07494656245
+Qick Sort,Repetitions list,4224,0.988777399063
+Qick Sort,Sorted list,4224,1.07296466827
+Qick Sort,Sorted rep. list,4224,0.988454341888
+Qick Sort (RP),Random list,4224,0.932645241419
+Qick Sort (RP),Repetitions list,4224,0.863336404165
+Qick Sort (RP),Sorted list,4224,0.926891883214
+Qick Sort (RP),Sorted rep. list,4224,0.893597682317
+Bubble Sort,Random list,4352,6.28022527695
+Bubble Sort,Repetitions list,4352,10.3379294078
+Bubble Sort,Sorted list,4352,6.27555012703
+Bubble Sort,Sorted rep. list,4352,10.322201252
+Insertion Sort,Random list,4352,2.41224972407
+Insertion Sort,Repetitions list,4352,2.37943768501
+Insertion Sort,Sorted list,4352,2.42204968135
+Insertion Sort,Sorted rep. list,4352,2.38318737348
+Qick Sort,Random list,4352,1.11327640216
+Qick Sort,Repetitions list,4352,1.01973970731
+Qick Sort,Sorted list,4352,1.10739676158
+Qick Sort,Sorted rep. list,4352,1.0219010512
+Qick Sort (RP),Random list,4352,0.995489994685
+Qick Sort (RP),Repetitions list,4352,0.918023745219
+Qick Sort (RP),Sorted list,4352,0.984393278758
+Qick Sort (RP),Sorted rep. list,4352,0.911071062088
+Bubble Sort,Random list,4480,6.6649723053
+Bubble Sort,Repetitions list,4480,10.9433259964
+Bubble Sort,Sorted list,4480,6.63110097249
+Bubble Sort,Sorted rep. list,4480,10.9514648914
+Insertion Sort,Random list,4480,2.56597304344
+Insertion Sort,Repetitions list,4480,2.5255420208
+Insertion Sort,Sorted list,4480,2.56215707461
+Insertion Sort,Sorted rep. list,4480,2.52551102638
+Qick Sort,Random list,4480,1.15711593628
+Qick Sort,Repetitions list,4480,1.05192136765
+Qick Sort,Sorted list,4480,1.15639058749
+Qick Sort,Sorted rep. list,4480,1.05946000417
+Qick Sort (RP),Random list,4480,1.01026598612
+Qick Sort (RP),Repetitions list,4480,0.934280713399
+Qick Sort (RP),Sorted list,4480,1.01604239146
+Qick Sort (RP),Sorted rep. list,4480,0.928565263748
+Bubble Sort,Random list,4608,7.03696767489
+Bubble Sort,Repetitions list,4608,11.6016740799
+Bubble Sort,Sorted list,4608,7.04541881879
+Bubble Sort,Sorted rep. list,4608,11.6107956568
+Insertion Sort,Random list,4608,2.72171974182
+Insertion Sort,Repetitions list,4608,2.67654339472
+Insertion Sort,Sorted list,4608,2.72215255102
+Insertion Sort,Sorted rep. list,4608,2.67706362406
+Qick Sort,Random list,4608,1.19265333811
+Qick Sort,Repetitions list,4608,1.09390433629
+Qick Sort,Sorted list,4608,1.19195954005
+Qick Sort,Sorted rep. list,4608,1.08675456047
+Qick Sort (RP),Random list,4608,1.06484905879
+Qick Sort (RP),Repetitions list,4608,0.959131081899
+Qick Sort (RP),Sorted list,4608,1.09396894773
+Qick Sort (RP),Sorted rep. list,4608,0.969245354335
+Bubble Sort,Random list,4736,7.40818699201
+Bubble Sort,Repetitions list,4736,12.2059393724
+Bubble Sort,Sorted list,4736,7.39482005437
+Bubble Sort,Sorted rep. list,4736,12.1969805559
+Insertion Sort,Random list,4736,2.86282324791
+Insertion Sort,Repetitions list,4736,2.81099534035
+Insertion Sort,Sorted list,4736,2.84994610151
+Insertion Sort,Sorted rep. list,4736,2.80521066984
+Qick Sort,Random list,4736,1.22072736422
+Qick Sort,Repetitions list,4736,1.12066626549
+Qick Sort,Sorted list,4736,1.21977066994
+Qick Sort,Sorted rep. list,4736,1.12071466446
+Qick Sort (RP),Random list,4736,1.10289057096
+Qick Sort (RP),Repetitions list,4736,1.00422430038
+Qick Sort (RP),Sorted list,4736,1.11867292722
+Qick Sort (RP),Sorted rep. list,4736,1.05339797338
+Bubble Sort,Random list,4864,7.83891693751
+Bubble Sort,Repetitions list,4864,12.8869499365
+Bubble Sort,Sorted list,4864,7.8250673612
+Bubble Sort,Sorted rep. list,4864,12.8744259675
+Insertion Sort,Random list,4864,3.02243932088
+Insertion Sort,Repetitions list,4864,2.97002569834
+Insertion Sort,Sorted list,4864,3.02720975876
+Insertion Sort,Sorted rep. list,4864,2.96947662036
+Qick Sort,Random list,4864,1.2606707414
+Qick Sort,Repetitions list,4864,1.14802400271
+Qick Sort,Sorted list,4864,1.2562696139
+Qick Sort,Sorted rep. list,4864,1.15293455124
+Qick Sort (RP),Random list,4864,1.14343460401
+Qick Sort (RP),Repetitions list,4864,1.02640112241
+Qick Sort (RP),Sorted list,4864,1.11426035563
+Qick Sort (RP),Sorted rep. list,4864,1.05041201909
+Bubble Sort,Random list,4992,8.29636764526
+Bubble Sort,Repetitions list,4992,13.615799427
+Bubble Sort,Sorted list,4992,8.24004300435
+Bubble Sort,Sorted rep. list,4992,13.6072349548
+Insertion Sort,Random list,4992,3.19795441628
+Insertion Sort,Repetitions list,4992,3.16516002019
+Insertion Sort,Sorted list,4992,3.19365970294
+Insertion Sort,Sorted rep. list,4992,3.14207665126
+Qick Sort,Random list,4992,1.32000668844
+Qick Sort,Repetitions list,4992,1.19403465589
+Qick Sort,Sorted list,4992,1.30301896731
+Qick Sort,Sorted rep. list,4992,1.18546024958
+Qick Sort (RP),Random list,4992,1.22188901901
+Qick Sort (RP),Repetitions list,4992,1.07292437553
+Qick Sort (RP),Sorted list,4992,1.14983503024
+Qick Sort (RP),Sorted rep. list,4992,1.1048549811
+Bubble Sort,Random list,5120,8.68793296814
+Bubble Sort,Repetitions list,5120,14.3162186146
+Bubble Sort,Sorted list,5120,8.67893966039
+Bubble Sort,Sorted rep. list,5120,14.2848933538
+Insertion Sort,Random list,5120,3.34176898003
+Insertion Sort,Repetitions list,5120,3.28747232755
+Insertion Sort,Sorted list,5120,3.3428346316
+Insertion Sort,Sorted rep. list,5120,3.28894607226
+Qick Sort,Random list,5120,1.33169229825
+Qick Sort,Repetitions list,5120,1.225426356
+Qick Sort,Sorted list,5120,1.32996328672
+Qick Sort,Sorted rep. list,5120,1.22571190198
+Qick Sort (RP),Random list,5120,1.24165646235
+Qick Sort (RP),Repetitions list,5120,1.09441328049
+Qick Sort (RP),Sorted list,5120,1.2046500047
+Qick Sort (RP),Sorted rep. list,5120,1.0901491642
+Bubble Sort,Random list,5248,9.17584029833
+Bubble Sort,Repetitions list,5248,15.0423483849
+Bubble Sort,Sorted list,5248,9.12951604525
+Bubble Sort,Sorted rep. list,5248,15.0050946077
+Insertion Sort,Random list,5248,3.52557929357
+Insertion Sort,Repetitions list,5248,3.46294673284
+Insertion Sort,Sorted list,5248,3.51997264226
+Insertion Sort,Sorted rep. list,5248,3.46247998873
+Qick Sort,Random list,5248,1.36735288302
+Qick Sort,Repetitions list,5248,1.25671569506
+Qick Sort,Sorted list,5248,1.36383199692
+Qick Sort,Sorted rep. list,5248,1.25552940369
+Qick Sort (RP),Random list,5248,1.25589927038
+Qick Sort (RP),Repetitions list,5248,1.13619709015
+Qick Sort (RP),Sorted list,5248,1.2365407149
+Qick Sort (RP),Sorted rep. list,5248,1.12996546427
+Bubble Sort,Random list,5376,9.62572526932
+Bubble Sort,Repetitions list,5376,15.7708717187
+Bubble Sort,Sorted list,5376,9.72317926089
+Bubble Sort,Sorted rep. list,5376,15.7873965899
+Insertion Sort,Random list,5376,3.69491561254
+Insertion Sort,Repetitions list,5376,3.64628267288
+Insertion Sort,Sorted list,5376,3.69734668732
+Insertion Sort,Sorted rep. list,5376,3.63828635216
+Qick Sort,Random list,5376,1.41285355886
+Qick Sort,Repetitions list,5376,1.29520789782
+Qick Sort,Sorted list,5376,1.39618905385
+Qick Sort,Sorted rep. list,5376,1.29701972008
+Qick Sort (RP),Random list,5376,1.27983434995
+Qick Sort (RP),Repetitions list,5376,1.15915473302
+Qick Sort (RP),Sorted list,5376,1.30074191093
+Qick Sort (RP),Sorted rep. list,5376,1.16051705678
+Bubble Sort,Random list,5504,10.0798282623
+Bubble Sort,Repetitions list,5504,16.4731613
+Bubble Sort,Sorted list,5504,10.0380086104
+Bubble Sort,Sorted rep. list,5504,16.4552879333
+Insertion Sort,Random list,5504,3.86490496
+Insertion Sort,Repetitions list,5504,3.79999939601
+Insertion Sort,Sorted list,5504,3.8696103096
+Insertion Sort,Sorted rep. list,5504,3.79734261831
+Qick Sort,Random list,5504,1.43434691429
+Qick Sort,Repetitions list,5504,1.32350341479
+Qick Sort,Sorted list,5504,1.44914046923
+Qick Sort,Sorted rep. list,5504,1.32478713989
+Qick Sort (RP),Random list,5504,1.31135972341
+Qick Sort (RP),Repetitions list,5504,1.22465491295
+Qick Sort (RP),Sorted list,5504,1.29743568103
+Qick Sort (RP),Sorted rep. list,5504,1.20060793559
+Bubble Sort,Random list,5632,10.5506881078
+Bubble Sort,Repetitions list,5632,17.3158607483
+Bubble Sort,Sorted list,5632,10.5490391254
+Bubble Sort,Sorted rep. list,5632,17.3189024925
+Insertion Sort,Random list,5632,4.06385397911
+Insertion Sort,Repetitions list,5632,3.99304668109
+Insertion Sort,Sorted list,5632,4.06469972928
+Insertion Sort,Sorted rep. list,5632,3.99001264572
+Qick Sort,Random list,5632,1.48572961489
+Qick Sort,Repetitions list,5632,1.36322466532
+Qick Sort,Sorted list,5632,1.46968332926
+Qick Sort,Sorted rep. list,5632,1.374518315
+Qick Sort (RP),Random list,5632,1.34003893534
+Qick Sort (RP),Repetitions list,5632,1.27032399178
+Qick Sort (RP),Sorted list,5632,1.36659741402
+Qick Sort (RP),Sorted rep. list,5632,1.25652798017
+Bubble Sort,Random list,5760,11.0394936403
+Bubble Sort,Repetitions list,5760,18.0511606534
+Bubble Sort,Sorted list,5760,11.0420910517
+Bubble Sort,Sorted rep. list,5760,18.0786086718
+Insertion Sort,Random list,5760,4.23850162824
+Insertion Sort,Repetitions list,5760,4.16723108292
+Insertion Sort,Sorted list,5760,4.2326019605
+Insertion Sort,Sorted rep. list,5760,4.17313440641
+Qick Sort,Random list,5760,1.53098940849
+Qick Sort,Repetitions list,5760,1.39813892047
+Qick Sort,Sorted list,5760,1.5055929025
+Qick Sort,Sorted rep. list,5760,1.39589413007
+Qick Sort (RP),Random list,5760,1.39398821195
+Qick Sort (RP),Repetitions list,5760,1.30736700694
+Qick Sort (RP),Sorted list,5760,1.4249133269
+Qick Sort (RP),Sorted rep. list,5760,1.28696195285
+Bubble Sort,Random list,5888,11.5394176642
+Bubble Sort,Repetitions list,5888,18.9232852459
+Bubble Sort,Sorted list,5888,11.4726386865
+Bubble Sort,Sorted rep. list,5888,18.9211933613
+Insertion Sort,Random list,5888,4.43761205673
+Insertion Sort,Repetitions list,5888,4.36244630814
+Insertion Sort,Sorted list,5888,4.41664838791
+Insertion Sort,Sorted rep. list,5888,4.3577123483
+Qick Sort,Random list,5888,1.57227595647
+Qick Sort,Repetitions list,5888,1.43449687958
+Qick Sort,Sorted list,5888,1.54709275564
+Qick Sort,Sorted rep. list,5888,1.4336643219
+Qick Sort (RP),Random list,5888,1.43313002586
+Qick Sort (RP),Repetitions list,5888,1.34146873156
+Qick Sort (RP),Sorted list,5888,1.42062274615
+Qick Sort (RP),Sorted rep. list,5888,1.30898833275
+Bubble Sort,Random list,6016,12.0823297501
+Bubble Sort,Repetitions list,6016,19.7170279821
+Bubble Sort,Sorted list,6016,12.0164388816
+Bubble Sort,Sorted rep. list,6016,19.7435607115
+Insertion Sort,Random list,6016,4.6572394371
+Insertion Sort,Repetitions list,6016,4.5596593221
+Insertion Sort,Sorted list,6016,4.63808210691
+Insertion Sort,Sorted rep. list,6016,4.55930097898
+Qick Sort,Random list,6016,1.6169295311
+Qick Sort,Repetitions list,6016,1.46407055855
+Qick Sort,Sorted list,6016,1.59929998716
+Qick Sort,Sorted rep. list,6016,1.453900973
+Qick Sort (RP),Random list,6016,1.47295069695
+Qick Sort (RP),Repetitions list,6016,1.36995903651
+Qick Sort (RP),Sorted list,6016,1.46951603889
+Qick Sort (RP),Sorted rep. list,6016,1.32734028498
+Bubble Sort,Random list,6144,12.5813260078
+Bubble Sort,Repetitions list,6144,20.5499440034
+Bubble Sort,Sorted list,6144,12.5213640531
+Bubble Sort,Sorted rep. list,6144,20.5904137293
+Insertion Sort,Random list,6144,4.82227365176
+Insertion Sort,Repetitions list,6144,4.74655508995
+Insertion Sort,Sorted list,6144,4.81272896131
+Insertion Sort,Sorted rep. list,6144,4.74715002378
+Qick Sort,Random list,6144,1.64586210251
+Qick Sort,Repetitions list,6144,1.49835673968
+Qick Sort,Sorted list,6144,1.63926410675
+Qick Sort,Sorted rep. list,6144,1.51917235057
+Qick Sort (RP),Random list,6144,1.52360963821
+Qick Sort (RP),Repetitions list,6144,1.38313277562
+Qick Sort (RP),Sorted list,6144,1.48197658857
+Qick Sort (RP),Sorted rep. list,6144,1.40233564377
+Bubble Sort,Random list,6272,13.1275900205
+Bubble Sort,Repetitions list,6272,21.5857333342
+Bubble Sort,Sorted list,6272,13.051179409
+Bubble Sort,Sorted rep. list,6272,21.450516065
+Insertion Sort,Random list,6272,5.03344066938
+Insertion Sort,Repetitions list,6272,5.02387332916
+Insertion Sort,Sorted list,6272,5.02162035306
+Insertion Sort,Sorted rep. list,6272,4.94461790721
+Qick Sort,Random list,6272,1.68363960584
+Qick Sort,Repetitions list,6272,1.53908054034
+Qick Sort,Sorted list,6272,1.68715659777
+Qick Sort,Sorted rep. list,6272,1.52785770098
+Qick Sort (RP),Random list,6272,1.53491266569
+Qick Sort (RP),Repetitions list,6272,1.42359566689
+Qick Sort (RP),Sorted list,6272,1.55050126712
+Qick Sort (RP),Sorted rep. list,6272,1.44546707471
+Bubble Sort,Random list,6400,13.6142659187
+Bubble Sort,Repetitions list,6400,22.3879362742
+Bubble Sort,Sorted list,6400,13.6396669547
+Bubble Sort,Sorted rep. list,6400,22.3226332664
+Insertion Sort,Random list,6400,5.24032966296
+Insertion Sort,Repetitions list,6400,5.16089367867
+Insertion Sort,Sorted list,6400,5.22898022334
+Insertion Sort,Sorted rep. list,6400,5.1552716891
+Qick Sort,Random list,6400,1.70812567075
+Qick Sort,Repetitions list,6400,1.5733367602
+Qick Sort,Sorted list,6400,1.72184991837
+Qick Sort,Sorted rep. list,6400,1.57404057185
+Qick Sort (RP),Random list,6400,1.57673859596
+Qick Sort (RP),Repetitions list,6400,1.49429734548
+Qick Sort (RP),Sorted list,6400,1.55737924576
+Qick Sort (RP),Sorted rep. list,6400,1.46195062002
+Bubble Sort,Random list,6528,14.2712017695
+Bubble Sort,Repetitions list,6528,23.2986887296
+Bubble Sort,Sorted list,6528,14.1848591169
+Bubble Sort,Sorted rep. list,6528,23.2449436982
+Insertion Sort,Random list,6528,5.47074302038
+Insertion Sort,Repetitions list,6528,5.37933127085
+Insertion Sort,Sorted list,6528,5.4713631471
+Insertion Sort,Sorted rep. list,6528,5.36923646927
+Qick Sort,Random list,6528,1.7498412927
+Qick Sort,Repetitions list,6528,1.60237232844
+Qick Sort,Sorted list,6528,1.75301337242
+Qick Sort,Sorted rep. list,6528,1.5987452666
+Qick Sort (RP),Random list,6528,1.64991792043
+Qick Sort (RP),Repetitions list,6528,1.51245268186
+Qick Sort (RP),Sorted list,6528,1.60149272283
+Qick Sort (RP),Sorted rep. list,6528,1.51375691096
+Bubble Sort,Random list,6656,14.7792830467
+Bubble Sort,Repetitions list,6656,24.172074
+Bubble Sort,Sorted list,6656,14.7570765813
+Bubble Sort,Sorted rep. list,6656,24.1915299892
+Insertion Sort,Random list,6656,5.66954604785
+Insertion Sort,Repetitions list,6656,5.5720094045
+Insertion Sort,Sorted list,6656,5.6834042867
+Insertion Sort,Sorted rep. list,6656,5.58323136965
+Qick Sort,Random list,6656,1.78090898196
+Qick Sort,Repetitions list,6656,1.6326640447
+Qick Sort,Sorted list,6656,1.78511826197
+Qick Sort,Sorted rep. list,6656,1.62312539419
+Qick Sort (RP),Random list,6656,1.67717369397
+Qick Sort (RP),Repetitions list,6656,1.49753157298
+Qick Sort (RP),Sorted list,6656,1.64549477895
+Qick Sort (RP),Sorted rep. list,6656,1.49561095238
+Bubble Sort,Random list,6784,15.3634675344
+Bubble Sort,Repetitions list,6784,25.1322878202
+Bubble Sort,Sorted list,6784,15.3463130792
+Bubble Sort,Sorted rep. list,6784,25.1623136997
+Insertion Sort,Random list,6784,5.89212330182
+Insertion Sort,Repetitions list,6784,5.7965139548
+Insertion Sort,Sorted list,6784,5.88052805265
+Insertion Sort,Sorted rep. list,6784,5.80130592982
+Qick Sort,Random list,6784,1.81470108032
+Qick Sort,Repetitions list,6784,1.67769066493
+Qick Sort,Sorted list,6784,1.80988844236
+Qick Sort,Sorted rep. list,6784,1.66224638621
+Qick Sort (RP),Random list,6784,1.76653973262
+Qick Sort (RP),Repetitions list,6784,1.5447716713
+Qick Sort (RP),Sorted list,6784,1.70627268155
+Qick Sort (RP),Sorted rep. list,6784,1.54872059822
+Bubble Sort,Random list,6912,16.1677343051
+Bubble Sort,Repetitions list,6912,26.4641400178
+Bubble Sort,Sorted list,6912,16.3047146797
+Bubble Sort,Sorted rep. list,6912,26.4505413373
+Insertion Sort,Random list,6912,6.12487395604
+Insertion Sort,Repetitions list,6912,6.00944542885
+Insertion Sort,Sorted list,6912,6.11312365532
+Insertion Sort,Sorted rep. list,6912,6.01149455706
+Qick Sort,Random list,6912,1.84210729599
+Qick Sort,Repetitions list,6912,1.69567195574
+Qick Sort,Sorted list,6912,1.84748808543
+Qick Sort,Sorted rep. list,6912,1.69319836299
+Qick Sort (RP),Random list,6912,1.7165813446
+Qick Sort (RP),Repetitions list,6912,1.61095007261
+Qick Sort (RP),Sorted list,6912,1.74059661229
+Qick Sort (RP),Sorted rep. list,6912,1.61851501465
+Bubble Sort,Random list,7040,16.7096993128
+Bubble Sort,Repetitions list,7040,27.1365124385
+Bubble Sort,Sorted list,7040,16.6085000038
+Bubble Sort,Sorted rep. list,7040,27.1446726322
+Insertion Sort,Random list,7040,6.38620861371
+Insertion Sort,Repetitions list,7040,6.25117373466
+Insertion Sort,Sorted list,7040,6.35499493281
+Insertion Sort,Sorted rep. list,7040,6.25040968259
+Qick Sort,Random list,7040,1.9101053079
+Qick Sort,Repetitions list,7040,1.73602859179
+Qick Sort,Sorted list,7040,1.88821132978
+Qick Sort,Sorted rep. list,7040,1.73455079397
+Qick Sort (RP),Random list,7040,1.74053009351
+Qick Sort (RP),Repetitions list,7040,1.60500629743
+Qick Sort (RP),Sorted list,7040,1.78798190753
+Qick Sort (RP),Sorted rep. list,7040,1.63321097692
+Bubble Sort,Random list,7168,17.2095903556
+Bubble Sort,Repetitions list,7168,28.0677817663
+Bubble Sort,Sorted list,7168,17.1298100948
+Bubble Sort,Sorted rep. list,7168,28.0275300344
+Insertion Sort,Random list,7168,6.5752799511
+Insertion Sort,Repetitions list,7168,6.47260332108
+Insertion Sort,Sorted list,7168,6.56616934141
+Insertion Sort,Sorted rep. list,7168,6.5745882988
+Qick Sort,Random list,7168,1.9865963459
+Qick Sort,Repetitions list,7168,1.77812711398
+Qick Sort,Sorted list,7168,1.92386730512
+Qick Sort,Sorted rep. list,7168,1.81594371796
+Qick Sort (RP),Random list,7168,1.82780305545
+Qick Sort (RP),Repetitions list,7168,1.66093738874
+Qick Sort (RP),Sorted list,7168,1.8268113931
+Qick Sort (RP),Sorted rep. list,7168,1.68110632896
+Bubble Sort,Random list,7296,17.922163407
+Bubble Sort,Repetitions list,7296,29.0876992544
+Bubble Sort,Sorted list,7296,17.914516449
+Bubble Sort,Sorted rep. list,7296,29.0744570096
+Insertion Sort,Random list,7296,6.82855542501
+Insertion Sort,Repetitions list,7296,6.69816366831
+Insertion Sort,Sorted list,7296,6.81686941783
+Insertion Sort,Sorted rep. list,7296,6.70207691193
+Qick Sort,Random list,7296,1.95896760623
+Qick Sort,Repetitions list,7296,1.79822095235
+Qick Sort,Sorted list,7296,1.95767664909
+Qick Sort,Sorted rep. list,7296,1.79640253385
+Qick Sort (RP),Random list,7296,1.81543890635
+Qick Sort (RP),Repetitions list,7296,1.67422771454
+Qick Sort (RP),Sorted list,7296,1.8375989596
+Qick Sort (RP),Sorted rep. list,7296,1.70996173223
+Bubble Sort,Random list,7424,18.4319186211
+Bubble Sort,Repetitions list,7424,30.0366260211
+Bubble Sort,Sorted list,7424,18.4830656846
+Bubble Sort,Sorted rep. list,7424,30.0705076853
+Insertion Sort,Random list,7424,7.0630346934
+Insertion Sort,Repetitions list,7424,6.91675972939
+Insertion Sort,Sorted list,7424,7.05530571938
+Insertion Sort,Sorted rep. list,7424,6.92392206192
+Qick Sort,Random list,7424,1.99634234111
+Qick Sort,Repetitions list,7424,1.84789967537
+Qick Sort,Sorted list,7424,2.02048071225
+Qick Sort,Sorted rep. list,7424,1.8434586525
+Qick Sort (RP),Random list,7424,1.85389558474
+Qick Sort (RP),Repetitions list,7424,1.7206846873
+Qick Sort (RP),Sorted list,7424,1.8602057298
+Qick Sort (RP),Sorted rep. list,7424,1.71052606901
+Bubble Sort,Random list,7552,19.1674140294
+Bubble Sort,Repetitions list,7552,31.2269682884
+Bubble Sort,Sorted list,7552,19.0801010132
+Bubble Sort,Sorted rep. list,7552,31.1779277325
+Insertion Sort,Random list,7552,7.32377632459
+Insertion Sort,Repetitions list,7552,7.19972531001
+Insertion Sort,Sorted list,7552,7.33324464162
+Insertion Sort,Sorted rep. list,7552,7.56671929359
+Qick Sort,Random list,7552,2.40883930524
+Qick Sort,Repetitions list,7552,1.92714222272
+Qick Sort,Sorted list,7552,2.24667962392
+Qick Sort,Sorted rep. list,7552,2.2008190155
+Qick Sort (RP),Random list,7552,2.34882497787
+Qick Sort (RP),Repetitions list,7552,2.38205607732
+Qick Sort (RP),Sorted list,7552,2.64147766431
+Qick Sort (RP),Sorted rep. list,7552,2.24920161565
+Bubble Sort,Random list,7680,25.862969319
+Bubble Sort,Repetitions list,7680,32.56260101
+Bubble Sort,Sorted list,7680,20.2399166425
+Bubble Sort,Sorted rep. list,7680,35.9395413399
+Insertion Sort,Random list,7680,8.51543728511
+Insertion Sort,Repetitions list,7680,8.34000468254
+Insertion Sort,Sorted list,7680,8.4963350296
+Insertion Sort,Sorted rep. list,7680,8.27574666341
+Qick Sort,Random list,7680,2.35740478834
+Qick Sort,Repetitions list,7680,2.13230975469
+Qick Sort,Sorted list,7680,2.34113645554
+Qick Sort,Sorted rep. list,7680,2.12864732742
+Qick Sort (RP),Random list,7680,2.16492565473
+Qick Sort (RP),Repetitions list,7680,1.99374961853
+Qick Sort (RP),Sorted list,7680,2.17648704847
+Qick Sort (RP),Sorted rep. list,7680,1.9881122907
+Bubble Sort,Random list,7808,23.2455895742
+Bubble Sort,Repetitions list,7808,37.4688707193
+Bubble Sort,Sorted list,7808,24.4866467317
+Bubble Sort,Sorted rep. list,7808,37.6149036884
+Insertion Sort,Random list,7808,8.81796232859
+Insertion Sort,Repetitions list,7808,8.57699863116
+Insertion Sort,Sorted list,7808,8.81600340207
+Insertion Sort,Sorted rep. list,7808,8.58218963941
+Qick Sort,Random list,7808,2.40768567721
+Qick Sort,Repetitions list,7808,2.15893689791
+Qick Sort,Sorted list,7808,2.45959965388
+Qick Sort,Sorted rep. list,7808,2.1629866759
+Qick Sort (RP),Random list,7808,2.20666027069
+Qick Sort (RP),Repetitions list,7808,2.06794563929
+Qick Sort (RP),Sorted list,7808,2.32686368624
+Qick Sort (RP),Sorted rep. list,7808,2.01037295659
+Bubble Sort,Random list,7936,24.0472117265
+Bubble Sort,Repetitions list,7936,38.9807223479
+Bubble Sort,Sorted list,7936,24.4056835969
+Bubble Sort,Sorted rep. list,7936,38.7132713
+Insertion Sort,Random list,7936,9.16864864031
+Insertion Sort,Repetitions list,7936,8.82006160418
+Insertion Sort,Sorted list,7936,9.12689304352
+Insertion Sort,Sorted rep. list,7936,8.80500761668
+Qick Sort,Random list,7936,2.47218704224
+Qick Sort,Repetitions list,7936,2.22541602453
+Qick Sort,Sorted list,7936,2.43285298347
+Qick Sort,Sorted rep. list,7936,2.29709068934
+Qick Sort (RP),Random list,7936,2.29233900706
+Qick Sort (RP),Repetitions list,7936,2.06720232964
+Qick Sort (RP),Sorted list,7936,2.29588858287
+Qick Sort (RP),Sorted rep. list,7936,2.06628600756
+Bubble Sort,Random list,8064,24.1138323943
+Bubble Sort,Repetitions list,8064,43.8829081059
+Bubble Sort,Sorted list,8064,31.3058269819
+Bubble Sort,Sorted rep. list,8064,51.7239712874
+Insertion Sort,Random list,8064,8.79540435473
+Insertion Sort,Repetitions list,8064,8.43826389313
+Insertion Sort,Sorted list,8064,8.66152429581
+Insertion Sort,Sorted rep. list,8064,8.36351799965
+Qick Sort,Random list,8064,2.32667827606
+Qick Sort,Repetitions list,8064,2.07852602005
+Qick Sort,Sorted list,8064,2.2395333449
+Qick Sort,Sorted rep. list,8064,2.09794545174
+Qick Sort (RP),Random list,8064,2.21157987912
+Qick Sort (RP),Repetitions list,8064,1.92331004143
+Qick Sort (RP),Sorted list,8064,2.09852298101
+Qick Sort (RP),Sorted rep. list,8064,2.03101770083
