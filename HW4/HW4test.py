@@ -1,0 +1,5 @@
+reload(HW4)
+a = HW4.Node(3)
+b = HW4.Node(2)
+l = HW4.LinkedList(a)
+l.addNode(4)
