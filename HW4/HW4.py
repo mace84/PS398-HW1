@@ -3,6 +3,8 @@
 ## 02/12/2012
 ## Script implementing a singly linked list with nodes class
 
+# !/usr/bin/python
+    
 class Exceptions(Exception):
     def __init__(self,value):
         self.value = value
@@ -24,17 +26,19 @@ class Node(object):
         else:
             self.next.appendChild(new_value)
     
-    def concatChildValues(self):
+    def concatChildValues(self, head):
         if self.next == None:
             return str(self.value)
+        elif self.next == head:
+            return str(self.value) + ",...(cyclical)"
         else:
-            return str(self.value) + ", " + self.next.concatChildValues()
+            return str(self.value) + ", " + self.next.concatChildValues(head)
 
-    def height(self):
-        if self.next == None:
+    def height(self, head):
+        if self.next == None or self.next == head:
             return 1
         else:
-            return self.next.height() + 1
+            return self.next.height(head) + 1
 
     def index(self,position):
         if position != 0 and self.next == None:
@@ -61,13 +65,13 @@ class LinkedList(object):
 
     def __str__(self):
         try:
-            return self.head.concatChildValues()
+            return self.head.concatChildValues(self.head)
         except:
             if self.head == None:
                 raise Exceptions, "This list is empty!"
         
     def length(self):
-        return self.head.height()
+        return self.head.height(self.head)
     
     def appendNode(self,new_value):
         if self.head == None:
@@ -122,7 +126,7 @@ class LinkedList(object):
             newhead = self.head.index(i).value
             self.addNodeBefore(newhead,0)
             self.removeNode(i+1)
-            return self
+        return self
 
     def addCycle(self):
         self.head.index(self.length()-1).next = self.head
@@ -131,8 +135,8 @@ class LinkedList(object):
         for i in range(0,self.length()):
             if self.head.index(i).next == None:
                 return False
-            elif i == self.length():
+            elif i == self.length()-1:
                 return True
-        # the cyclic structure leads to runtime errors with the recursive functions included in the Node methods. Thus, node.height() does not return and this solution does not work.
-        # add checks for bad inputs
+
+        # add checks for bad inputs (check index values for being integers)
         # add complexities
