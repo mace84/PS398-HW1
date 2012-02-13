@@ -36,42 +36,38 @@ class Node(object):
         else:
             return self.next.height() + 1
 
-    def pointer(self,position):
+    def index(self,position):
         if position != 0 and self.next == None:
             raise Exceptions, "Index out of range!"
         elif position == 0:
             return self
         else:
             temp = position - 1
-            return self.next.pointer(temp)
-
-    def preValues(self,position):
-        if position == 0:
-            return Node(None)
-        elif self.next == self.pointer(position):
-            return self
-        else:
-            temp = position - 1
-            return self.next.preValues(temp)
+            return self.next.index(temp)
         
     def checkValues(self,check):
         if self.value == check:
             return True
-        elif self.next == None:
-            return False
         else:
-            return self.next.checkValues(check)
+            return False
 
     
 class LinkedList(object):
     def __init__(self,_node=None):
-        self.head=_node
+        if _node != None:
+            self.head = Node(_node)
+        else:
+            self.head=_node
 
     def __str__(self):
-        return self.head.concatChildValues()
-
+        try:
+            return self.head.concatChildValues()
+        except:
+            if self.head == None:
+                raise Exceptions, "This list is empty!"
+        
     def length(self):
-        return self.head.hight()
+        return self.head.height()
     
     def appendNode(self,new_value):
         if self.head == None:
@@ -80,24 +76,63 @@ class LinkedList(object):
             self.head.appendChild(new_value)
 
     def addNodeAfter(self, new_value, after_node):
-        endValues = self.head.pointer(after_node+1)
-        startValues = self.head.preValues(after_node)
-        startValues.next = Node(new_value,endValues)
+        if after_node == 0:
+            insertPoint = self.head
+        else:
+            insertPoint = self.head.index(after_node)
+        addedNode = Node(new_value,insertPoint.next)
+        insertPoint.next = addedNode
 
     def addNodeBefore(self, new_value, before_node):
-        endValues = self.head.pointer(before_node)
-        startValues = self.head.preValues(before_node-1)    
-        startValues.next = Node(new_value,endValues)
+        if before_node == 0:
+            oldhead = self.head
+            self.head = Node(new_value,oldhead)
+        else:
+            insertPoint = self.head.index(before_node - 1)
+            addedNode = Node(new_value,insertPoint.next)
+            insertPoint.next = addedNode
 
     def removeNode(self, node_to_remove):
-        remNode = self.head.pointer(node_to_remove)
-        startValues = self.head.preValues(node_to_remove)
-        endValues = remNode.next
-        startValues.next = endValues
+        if node_to_remove == 0:
+            newhead = self.head.next
+            self.head = newhead
+            return
+        preRemNode = self.head.index(node_to_remove - 1)
+        if node_to_remove == self.length() -1:
+            preRemNode.next = None
+        else:
+            postRemNode = self.head.index(node_to_remove + 1)
+            preRemNode.next = postRemNode
 
-    # def removeNodesByValue(self, value):
-    #     removeNode()
+    def removeNodesByValue(self, value):
+        if self.length() == 1:
+            if self.head.checkValues(value) == True:
+                self.removeNode(0)
+                return
+            return
+        for i in range(1,self.length()):
+            checkelement = self.head.index(i)
+            if checkelement.checkValues(value) == True:
+                self.removeNode(i)
+                self.removeNodesByValue(value)
+    # This raises an index out of bound error but generates the right result. Why?
+                
+    def reverse(self):
+        for i in range(1,self.length()):
+            newhead = self.head.index(i).value
+            self.addNodeBefore(newhead,0)
+            self.removeNode(i+1)
+            return self
 
-    # def reverse(self):
+    def addCycle(self):
+        self.head.index(self.length()-1).next = self.head
 
-    # def hasCycle(self):
+    def hasCycle(self):
+        for i in range(0,self.length()):
+            if self.head.index(i).next == None:
+                return False
+            elif i == self.length():
+                return True
+        # the cyclic structure leads to runtime errors with the recursive functions included in the Node methods. Thus, node.height() does not return and this solution does not work.
+        # add checks for bad inputs
+        # add complexities
