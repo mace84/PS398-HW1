@@ -14,27 +14,33 @@ from datetime import date
 
 # First specify some little helpers. They are very specific to the formatting of the blog
 
-def stringOut(input):
+def titleOut(input):
     mkstring = str(input)
-    tmp = mkstring.split(">")[1]
-    out = tmp.split("<")[0]
+    out = mkstring[mkstring.find('entry-title">') + 13 : mkstring.find('</h1')]
     return out
 
 def authorOut(input):
     mkstring = str(input)
-    tmp1 = mkstring.rsplit('rel="author"')[1]
-    tmp2 = tmp1.rsplit("<")[0]
-    out = tmp2.lstrip(">")
+    out = mkstring[mkstring.find('author">') + 8 : mkstring.find('</a')]
     return out
-    
+
+def dateOut(input):
+    mkstring = str(input)
+    temp = mkstring[mkstring.find('entry-date">') + 12 : mkstring.find('</span')]
+    out = transDate(temp)
+    return out
+
 def transDate(stringdate):
-    months = {"January" : 1,"February" : 2,"March" : 3,"April" : 4,"Mai" : 5,"June" : 6,"July" : 7,"August": 8,"September":9,"Oktober":10,"November":11,"December":12}
-    sdate = stringdate.split()
-    month = months[sdate[0]]
-    day = int(sdate[1].rstrip(","))
-    year = int(sdate[2])
-    outdate = date(year,month,day)
-    return outdate
+    try:
+        months = {"January" : 1,"February" : 2,"March" : 3,"April" : 4,"Mai" : 5,"June" : 6,"July" : 7,"August": 8,"September":9,"Oktober":10,"November":11,"December":12}
+        sdate = stringdate.split()
+        month = months[sdate[0]]
+        day = int(sdate[1].rstrip(","))
+        year = int(sdate[2])
+        outdate = date(year,month,day)
+        return outdate
+    except:
+        return(stringdate)
 
 # now let's crawl
 
@@ -64,13 +70,13 @@ while len(tempurls) > 0:
             if root in link['href'] and link['href'] not in urls and link['href'] not in tempurls:
                 tempurls.append(link.get('href'))
 
-        temptitle = spost.findAll("h1", {"class" : "entry-title"})
+        temptitle = titleOut(spost.findAll("h1", {"class" : "entry-title"}))
         post_title.append(temptitle)
 
-        tempauthor = spost.findAll("a", {"rel":"author"})
+        tempauthor = authorOut(spost.findAll("a", {"rel":"author"}))
         author.append(tempauthor)
 
-        indate = spost.findAll("span", {"class" : "entry-date"})
+        indate = dateOut(spost.findAll("span", {"class" : "entry-date"}))
         publish_date.append(indate)
 
         comments = spost.findAll("div", {"class":"comment-meta commentmetadata"})
@@ -84,7 +90,7 @@ while len(tempurls) > 0:
 # generate output
 Output = []
 for i in range(0,len(post_title)):
-    Output.append([post_title[i],author[i],publish_date[i], urls[i], comment_count[i]])
+    Output.append([post_title[i],author[i],str(publish_date[i]), urls[i], comment_count[i]])
 
 # write output into file
 with open('yspr_crawl.csv', 'wb') as file:
