@@ -26,8 +26,7 @@ class Twetwork(object):
         self.follower = [[self.root.friends_count]]
 
         self.networkExpand1()
-        # self.networkExpand2() # I get an authorization error when running this
-
+        self.networkExpand2() # This works now for gruendinger's account. But for universal usage, I should add a check for rating limits. Maybe some day...
 
     def __str__(self):
         self.networkPrinter()
