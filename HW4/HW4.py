@@ -149,6 +149,6 @@ class LinkedList(object):
                 return False
             elif i == self.length()-1:
                 return True
-            # best = worst: O(n^2)
+            # best:O(n) worst: O(n^2)
             
         # add checks for bad inputs (check index values for being integers)
